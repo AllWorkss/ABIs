@@ -1,0 +1,17 @@
+gradio>=6.0
+requests
+beautifulsoup4
+textblob
+fpdf2
+lxml
+html5lib
+pdfplumber
+pandas
+openpyxl
+python-docx
+scikit-learn
+numpy
+prophet
+statsmodels
+tensorflow
+streamlit
