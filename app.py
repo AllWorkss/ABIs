@@ -141,6 +141,8 @@ def h_full(url,files,dd):
     if hd: dm = analyze_documents_v2(files, DOC_MAP.get(dd,"Auto Detect"))
     return sm,mm,se,cm,su,pdf,dm
 
+
+
 # ── App ───────────────────────────────────────────────────
 with gr.Blocks(title="Allworkss BI Suite", css=CSS,
                theme=gr.themes.Soft(primary_hue="green",
@@ -168,6 +170,9 @@ with gr.Blocks(title="Allworkss BI Suite", css=CSS,
     </div>
     """)
 
+                                        
+                                        
+ 
     # ═══════════════════════════════════════════════════
     # TOP-LEVEL MODULE TABS
     # ═══════════════════════════════════════════════════
